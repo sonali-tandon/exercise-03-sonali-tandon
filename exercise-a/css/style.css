@@ -1,0 +1,38 @@
+h1 {
+    text-align: center;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+}
+
+table {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+thead tr th {
+    height: 2rem;
+    text-align: left;
+    color: #1db954;
+    background-color: #d3d3d3;
+    border-collapse: collapse;
+}
+
+thead tr th,
+tbody tr td {
+    padding: 0.5em;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+tbody tr {
+    background-color: #eee;
+}
+
+tbody tr:hover {
+    background-color: pink;
+}
+
+#albumart {
+    width: 100px;
+    height: 100px;
+}
